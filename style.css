@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@media only screen and (max-width: 400px){
+    width: 90%;
+    height: 90%;
+}
+@media only screen and (max-width: 800px){
+    width: 90%;
+    height: 90%;
+}
+
 
 :root {
     --primary-color: #033b4a
