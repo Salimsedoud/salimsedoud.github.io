@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+    --primary-color: #033b4a
+    --bg-primary: #ff0000
+
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 100vh;
+    background: fixed;
+
+}
+
+header .navbar{
+    background-color: #ff0808;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+
+}
+
+#home #logo {
+    color: antiquewhite;
+    font-size: 35px;
+
+
+}
+
+header .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    color: #000000;
+    padding: 1.5rem 2rem;
+
+
+
+}
+
+header .navbar nav ul{
+    display: flex;
+
+
+}
+
+header .navbar nav ul a{
+    margin: 0 15px;
+    color: antiquewhite;
+}
+
+
+header .header-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 1100px;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    padding: 5rem 2rem 0;
+
+
+
+}
+
+header .header-content .content-text {
+    margin-bottom: 7rem;
+}
+
+
+header .header-content img {
+    max-width: 350px;
+    margin-bottom: 10rem;
+    
+}
+
+header .header-content .content-text .hi-there {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header .header-content .content-text .salim-sedoud {
+    font-size: 75px;
+    text-shadow: 3px 3px 3px #ff0808;
+}
+
+header .header-content .content-text .about-me {
+    background-color: #000000;
+    padding: 8px 20px;
+    color: antiquewhite;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+
+}
+
+header .header-content .header-content .title {
+    margin: 5rem 2rem;
+
+}
+
+
+header .header-content .social {
+    margin: 1rem 0 2rem;
+}
+
+header .header-content .social a i {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #000000;
+    border-radius: 39%;
+    transition: all 0.80s ease-in-out ;
+    margin-right: 10px;
+}
+
+header .header-content .social a i:hover {
+    transform: scale(0.85);
+
+
+}
+
+header .header-content .content-text .about-me:hover {
+     background-color: #ff0808;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 2rem;
+}
+
+#about, 
+#skills, 
+#services, #contact{
+   padding: 6rem 0;
+    
+}
+
+#about h2, #skills h2, #services h2, #contact h2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #ff0808;
+    font-weight: 800;
+}
+
+#about hr, #skills hr , #services hr, #contact hr {
+    width: 100px;
+    height: 3px;
+    background-color: #ff0808;
+    margin: 5px auto 0;
+
+}
+
+#about .about-content {
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1100px;
+    margin: auto;
+    column-gap: 3rem;
+
+}
+
+#about .about-content .col-1 h3
+{
+    font-size: 30px;
+    color: #ff0808;
+}
+
+#about .about-content .col-1 p {
+    color: gray;
+    margin-top: 3rem;
+    line-height: 1.8;
+}
+
+
+#about .about-content .col-2 p {
+    font-weight: 900;
+    color: gray;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#about .about-content .col-2 p b{
+    font-size: 20px;
+    color: #000000;
+}
+
+.social1 {
+    font-size: 25px;
+}
+
+#skills .row img {
+    max-width: 90px;
+}
+
+
+#skills .personal-skills {
+    margin-top: 3rem;
+
+}
+
+#skills .personal-skills .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#skills .personal-skills .row .item{
+    background-color: #ff0808;
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: antiquewhite;
+    transition: all 0.3s ease;
+
+}
+
+#skills .personal-skills .row .item:nth-child(1) img {
+    max-width: 80px;
+}
+
+#skills .personal-skills .row .item:nth-child(2) img {
+    max-width: 80px;
+}
+#skills .personal-skills .row .item:nth-child(3) img {
+    max-width: 80px;
+}
+#skills .personal-skills .row .item:nth-child(4) img {
+    max-width: 80px;
+}
+#skills .personal-skills .row .item:nth-child(5) img {
+    max-width: 80px;
+}
+#skills .personal-skills .row .item:nth-child(6) img {
+    max-width: 95px;
+}
+#skills .personal-skills .row .item:nth-child(7) img {
+    max-width: 80px;
+}
+#skills .personal-skills .row .item:nth-child(8) img {
+    max-width: 80px;
+}
+
+#skills .personal-skills .row .item:hover{
+    box-shadow: 10px 10px 10px #000000;
+}
+
+#services {
+
+}
+
+#services .row {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 4rem;
+    text-align: center;
+    padding: 30px 20px;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+
+#services .row .item {
+    box-shadow: 2px 2px 5px rgba(197, 18, 18, 0.973); 
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#services .row .item:hover{
+    transform: scale(1.04);
+}
+
+#services .row .item img {
+    width: 85px;
+    margin-top: 15px;
+}
+ 
+#services .row .item h3 {
+    color: #ff0808;
+    margin: 15px 0;
+
+}
+
+#services .row .item p {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact .row {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ff0808;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.973);
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    column-gap: 2rem;
+
+}
+
+#contact .container .row input,
+#contact .container .row textarea {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+     padding: 10px;
+     outline: none;
+     border: 1px solid black;
+
+}
+
+#contact .container .row .submit {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 110px;
+    height: 42px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Poppins';
+    transition: all 0.4s ease-in;
+}
+
+#contact .container .row .submit:hover {
+    background-color: #ff0808;
+}
+
+
