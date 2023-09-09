@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@media only screen and (max-width: 400px){
-    width: 90%;
-    height: 90%;
-}
-@media only screen and (max-width: 800px){
-    width: 90%;
-    height: 90%;
-}
 
+@media (max-width: 600px) {
+    header{
+        background-color: antiquewhite;
+        height: 100vh;
+        background: fixed;
+    
+    }
+    header .navbar{
+        background-color: #ff0808;
+        border-bottom: 1px solid #ccc;
+        position: fixed;
+        width: 100%;
+    
+    }
+    #fullbody {
+        width: 100%;
+    }
+}
 
 :root {
     --primary-color: #033b4a
